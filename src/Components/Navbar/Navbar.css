@@ -1,0 +1,236 @@
+/* normal display for > 800px */
+.navbox{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    width: 100%;
+box-sizing: border-box;
+border-bottom: 1px solid #EBECF0;
+}
+.block-question-te{
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+
+.block-question-te p{
+    color: #828A92;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+margin-top: 12px;
+margin-right: -56px;
+}
+.block-question{
+    height: 22px;
+    width: 125px;
+    margin-left: 54px;
+    margin-top: 24;
+    border-radius: 200px;
+    background: #F3F8FF;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 2px 7px;
+gap: 4px;
+}
+.block-question-te{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-question {
+width: 94px;
+height: 18px;
+margin-top: 2px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #176FFF;
+}
+
+/* //partie click */
+
+.blok-Timer{
+    justify-content: space-between;
+    margin-top: 22px;
+    display: flex;
+    width: 137px;
+height: 44px;
+background: #F3F8FF;
+border-radius: 28px;
+}
+
+.blok-Timer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    margin-left: 13px;
+    margin-top: 12px;
+    margin-right: 26px;
+    text-align: center;
+    color: #176FFF;
+}
+
+.blok-Timer img{
+    width: 20px;
+    margin-left: 17px;
+    margin-bottom: 4px;
+}
+
+
+/* partie my score */
+
+.block-myScore{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-right: 54px;
+}
+.block-myScore p{
+    width: 105px;
+    margin-top: -3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 446;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #176FFF;
+    margin-top: -30px;
+}
+.block-myScore svg{
+    margin-right: 4px;
+    margin-bottom: -10px;
+}
+
+
+
+/* display for the max width 800px */
+
+
+@media  screen and (max-width: 800px) {
+
+    .navbox{
+        display: flex;
+        justify-content: space-between;
+        height: 88px;
+        width: 100%;
+ 
+    }
+
+
+.block-question-te{
+    display: none;
+}
+.blok-Timer{
+ display: none;
+}
+
+.block-myScore{
+    display: none;
+}
+
+
+
+.pp {
+margin-left: 3%;
+margin-bottom: 2%;
+ width: 98%;
+ height: 18px;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500px;
+font-size: 20px;
+line-height: 18px;
+color: #828A92;
+background-color: #F3F8FF;
+}
+.block-question-txtimg{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #176FFF;
+     background-color: #EBECF0;
+     margin-left: 6%;
+ width: 50px;
+height: 23px;
+padding: 2px 7px;
+}
+
+
+/* scd part  */
+.block-myScore-scdpart {
+    background-color: 176FFF;
+    margin-top: 1px;
+    width: 58px;
+    height: 23px;
+    padding: 2px 10px 3px 10px;
+    background: #176FFF;
+    border-radius: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1px;
+  }
+.block-myScore-scdpart  {
+    color: #FFFFFF; ;
+    padding: 5px;
+
+    
+} 
+.block-myScore-scdpart svg{
+    padding:2px
+}
+.firstPart{
+    display: flex;
+    justify-content: space-between;
+}
+/* //partie timer */
+
+.blok-Timer-scdpart{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 65px;
+    background-color: #F3F8FF; 
+    width: 102%;
+    font-family: 'Font Awesome 6 Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #176FFF;
+}
+.blok-Timer-scdpart p{
+margin-top: 23px;
+}
+}
+.sectiona-Mobile {
+    width: 100%
+}
+
+/* dispaly non for the added part for the < 800px */
+@media  screen and (min-width: 800px) {
+.sectiona-Mobile{
+    display: none;
+}
+} 

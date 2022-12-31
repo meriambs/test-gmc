@@ -1,0 +1,107 @@
+.cards{
+    width: 38%;
+ height: 95px;
+ background: #FFFFFF;
+border: 1px solid #F3F8FF;
+border-radius: 8px;
+}
+
+.miniCards{
+    width: max-content;
+height: 20px;
+margin-top: 1px;
+margin-left: 3px;
+
+background: #F3F8FF;
+border-radius: 7px 0px 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #176FFF;
+}
+
+
+
+.chiffrebox{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.chiffre{
+    width: 27.2%;
+    height: 42px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+margin-left: 35px;
+font-size: 16px;
+line-height: 19.36px;
+color: #333333;
+}
+
+.checkbox{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    border: 1px solid #EBECF0;
+    border-radius: 3px;
+}
+
+/* dispaly parte < 800px */
+
+@media only screen and (max-width: 800px) {
+    .cards{
+    width: 87.5%;
+     height: 95px;
+     background: #FFFFFF;    
+    border: 1px solid #F3F8FF;
+    border-radius: 8px;
+    }
+    
+    .miniCards{
+        width: max-content;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: 3px;
+
+    background: #F3F8FF;
+    border-radius: 7px 0px 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;    line-height: 20px;
+    color: #176FFF;
+    }
+    
+    
+    
+    .chiffrebox{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .chiffre h4{
+        width: 27.2%;
+        height: 42px;
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #333333;
+    }
+    
+    .checkbox{
+        width: 24px;
+        height: 24px;
+        margin-top: 10px;
+        border: 1px solid #EBECF0;
+        border-radius: 3px;
+    }
+  }

@@ -1,0 +1,126 @@
+ .container{
+   
+margin-left: 15.5%;
+margin-right: 15.5%;
+margin-top: 40px; 
+} 
+.container p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #176FFF;
+}
+
+.container h4{
+    margin-top: 12px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 20px;
+color: #333333;
+
+}
+
+.test{
+   display: flex;
+   flex-wrap: wrap;
+justify-content: space-around;}
+.cards{
+    margin: 10px;
+    padding-right: 50px;
+}
+button{
+    width:265px ;
+    height: 50px;
+   margin-top: 38px;
+ margin-left: 77%;
+background: #FAFAFA;
+border: 1px solid #EBECF0;
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #B9BDC1;
+}
+.divbutton button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gomycode{
+    margin-top: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* dispaly part for the < 800px */
+
+@media  screen and (max-width: 800px) {
+  .container {
+    margin-left: 5.1%;
+margin-right: 7.1%;
+margin-top: 130px;
+  }
+    .container p{
+   display: none;
+
+    }
+    
+    .container h4{
+        
+            margin-top: 12px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 595;
+            font-size: 19px;
+            line-height: 200%;
+            color: #333333;
+            width: 97%;
+          
+    
+    }
+    
+    .test{
+       display: flex;
+       flex-wrap: wrap;
+    justify-content: space-around;}
+   
+    
+    button{
+        width: 96%;
+        height: 50px;
+        margin-top: 38px;
+        margin-left: 1%;
+        background: #FAFAFA;
+        border: 1px solid #EBECF0;
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #B9BDC1;
+    }
+    .divbutton button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gomycode{
+        margin-top: 150px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+ .dotgomycode{
+    margin-bottom: 2px;
+    width: 7px;
+ }
+}
+  
